@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[대구테크노폴리스 중흥 S-class 111A Type]]></data>
+  <data name="en_project_author_name"><![CDATA[(주)아프로]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.ahpro.co.kr]]></data>
+
+
+
+  <data name="en_pano432_title"><![CDATA[거실]]></data>
+
+
+  <data name="en_pano435_title"><![CDATA[주방]]></data>
+
+
+  <data name="en_pano430_title"><![CDATA[안방]]></data>
+
+
+  <data name="en_pano433_title"><![CDATA[침실1]]></data>
+
+
+  <data name="en_pano434_title"><![CDATA[침실2]]></data>
+
+
+  <data name="en_pano429_title"><![CDATA[가족실]]></data>
+
+
+  <data name="en_pano428_title"><![CDATA[공용욕실]]></data>
+
+
+  <data name="en_pano431_title"><![CDATA[드레스룸]]></data>
+
+
+  <data name="en_pano437_title"><![CDATA[수납공간]]></data>
+
+
+  <data name="en_pano436_title"><![CDATA[현관]]></data>
+
+
+  <data name="en_pano551_title"><![CDATA[부부욕실]]></data>
+
+
+
+
+	<data name="en_project_floor_title"><![CDATA[111㎡ A Type]]></data>
+	<data name="en_spotmap282_tooltip"><![CDATA[침실1]]></data>
+	<data name="en_spotmap283_tooltip"><![CDATA[침실2]]></data>
+	<data name="en_spotmap284_tooltip"><![CDATA[수납공간]]></data>
+	<data name="en_spotmap285_tooltip"><![CDATA[주방]]></data>
+	<data name="en_spotmap286_tooltip"><![CDATA[거실]]></data>
+	<data name="en_spotmap287_tooltip"><![CDATA[가족실]]></data>
+	<data name="en_spotmap288_tooltip"><![CDATA[안방]]></data>
+	<data name="en_spotmap289_tooltip"><![CDATA[드레스룸]]></data>
+	<data name="en_spotmap290_tooltip"><![CDATA[공용욕실]]></data>
+	<data name="en_spotmap553_tooltip"><![CDATA[부부욕실]]></data>
+
+
+  <data name="en_logowebsiteurl"><![CDATA[http://dt.s-class.co.kr/]]></data>
+  <data name="en_logotooltipText"><![CDATA[대구테크노폴리스 중흥S-클래스 바로가기]]></data>
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_button2tooltip"><![CDATA[]]></data>
+  <data name="en_button4tooltip"><![CDATA[]]></data>
+  <data name="en_button5tooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton2firsttooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton2secondtooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton1firsttooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton1secondtooltip"><![CDATA[]]></data>
+  <data name="en_button6tooltip"><![CDATA[]]></data>
+  <data name="en_button6openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr/dt/111A.html]]></data>
+  <data name="en_button7tooltip"><![CDATA[]]></data>
+  <data name="en_button7openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr/dt/99A.html]]></data>
+  <data name="en_button16tooltip"><![CDATA[]]></data>
+  <data name="en_button17tooltip"><![CDATA[]]></data>
+  <data name="en_button18tooltip"><![CDATA[]]></data>
+  <data name="en_button19tooltip"><![CDATA[]]></data>
+  <data name="en_button20tooltip"><![CDATA[]]></data>
+  <data name="en_button30tooltip"><![CDATA[]]></data>
+  <data name="en_button21tooltip"><![CDATA[]]></data>
+  <data name="en_button22tooltip"><![CDATA[]]></data>
+  <data name="en_button23tooltip"><![CDATA[]]></data>
+  <data name="en_button24tooltip"><![CDATA[]]></data>
+  <data name="en_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="en_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="en_button29tooltip"><![CDATA[]]></data>
+  <data name="en_button29openurlwebsiteurl"><![CDATA[http://www.ahpro.co.kr]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.18.3">
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/spot_1_user_defaultpoint12.png"
+         visible="false"
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 광교호수공원 -->
+  <style name="Icon광교호수공원"
+         url="%FIRSTXML%/spots/_523805484049688_user_defaultpoint14.png"
+         visible="false"
+         onhover="onhoverIcon광교호수공원"
+         onout="onoutIcon광교호수공원"
+         />
+  <action name="onhoverIcon광교호수공원">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon광교호수공원">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 아주대학교 -->
+  <style name="Icon아주대학교"
+         url="%FIRSTXML%/spots/_51452458245461744368_user_defaultpoint18.png"
+         visible="false"
+         onhover="onhoverIcon아주대학교"
+         onout="onoutIcon아주대학교"
+         />
+  <action name="onhoverIcon아주대학교">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon아주대학교">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 초교 -->
+  <style name="Icon초교"
+         url="%FIRSTXML%/spots/_44368_user_defaultpoint20.png"
+         visible="false"
+         onhover="onhoverIcon초교"
+         onout="onoutIcon초교"
+         />
+  <action name="onhoverIcon초교">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon초교">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 이마트 -->
+  <style name="Icon이마트"
+         url="%FIRSTXML%/spots/_4756053944_user_defaultpoint23.png"
+         visible="false"
+         onhover="onhoverIcon이마트"
+         onout="onoutIcon이마트"
+         />
+  <action name="onhoverIcon이마트">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon이마트">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 신대호수 -->
+  <style name="Icon신대호수"
+         url="%FIRSTXML%/spots/_458245484049688_user_defaultpoint24.png"
+         visible="false"
+         onhover="onhoverIcon신대호수"
+         onout="onoutIcon신대호수"
+         />
+  <action name="onhoverIcon신대호수">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon신대호수">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 모델하우스 -->
+  <style name="Icon모델하우스"
+         url="%FIRSTXML%/spots/_45944546165086449828_user_defaultpoint25.png"
+         visible="false"
+         onhover="onhoverIcon모델하우스"
+         onout="onoutIcon모델하우스"
+         />
+  <action name="onhoverIcon모델하우스">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon모델하우스">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- ****** -->
+  <!-- Footer -->
+  <!-- ****** -->
+  <layer name="footer"
+         keep="true"
+         url="%FIRSTXML%/graphics/footer/footer.png" 
+         align="bottom"
+         x="0"
+         y="0"
+         zorder="0"
+         enabled="false"
+         capture="true"
+         visible="false"
+         
+         width="100%"
+         accuracy="1"
+         />
+
+  <events name="footerevents" 
+    onTourStart="showfooter();"
+    hidetourcontrols="hidefooter();"
+    showtourcontrols="showfooter();"
+    keep="true" />
+
+  <action name="hidefooter">
+    set(layer[footer].visible, false);
+  </action>
+  <action name="showfooter">
+    set(layer[footer].visible, true);
+  </action>
+
+
+  <!-- ******************************************** -->
+  <!-- Picture : bottomleft -->
+  <!-- ******************************************** -->
+  <layer name="picture"
+         keep="true"
+         url="%FIRSTXML%/graphics/picture/copyright.png" 
+         align="bottomleft"
+         x="25"
+         y="15"
+         zorder="1"
+         handcursor="false"
+         enabled="false"
+         visible="false"
+         />
+
+  <events name="pictureevents" 
+    onTourStart="showpicture();"
+    hidetourcontrols="hidepicture();" 
+    showtourcontrols="showpicture();" 
+    keep="true" />
+
+  <action name="hidepicture">set(layer[picture].visible, false);</action>
+  <action name="showpicture">set(layer[picture].visible, true);</action>
+
+
+  <!-- ****** -->
+  <!-- Header -->
+  <!-- ****** -->
+  <layer name="header"
+         keep="true"
+         url="%FIRSTXML%/graphics/header/header.jpg" 
+         align="top"
+         x="0"
+         y="0"
+         zorder="2"
+         enabled="false"
+         capture="true"
+         visible="false"
+         
+         width="100%"
+         accuracy="1"
+         />
+
+  <events name="headerevents"
+    onTourStart="showheader();"
+    hidetourcontrols="hideheader();"
+    showtourcontrols="showheader();"
+    keep="true" />
+
+  <action name="hideheader">
+    set(layer[header].visible, false);
+  </action>
+  <action name="showheader">
+    set(layer[header].visible, true);
+  </action>
+
+
+
+
+  <!-- ************ -->
+  <!-- Logo : viewport / topleft -->
+  <!-- ************ -->
+
+  <layer align="topleft"
+         x="25"
+         y="15"
+         zorder="3"
+         name="logo"
+         keep="true"
+         visible="false"
+         capture="false"
+
+			tooltip="logotooltipText"
+			onhover="showTooltip('plugin',logoTooltipStyle);"
+			onout="hideTooltip();"
+         url="%FIRSTXML%/graphics/logo/logo.png" 
+         onclick="openurl(http://gk.s-class.co.kr/,_blank);
+"
+
+
+         />
+
+  <events name="logoevents" 
+    onTourStart="showlogo();"
+    keep="true" />
+
+  <action name="hidelogo">
+    set(layer[logo].visible, false);
+  </action>
+  <action name="showlogo">
+      set(layer[logo].visible, true);
+  </action>
+
+
+
+<layer name="logoTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="true"
+	backgroundcolor="0xfff45a"
+	backgroundalpha="0.6"
+	border="false"
+	css="color:#000000;font-family:나눔바른고딕;font-size:14px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	edge="bottom"
+	selectable="false"
+	zorder="0"
+	padding="2"
+	xoffset="0"
+	yoffset="0"
+	visible="false"
+	html=""
+/>
+
+
+  <!-- ******************************************** -->
+  <!-- Picture : bottomright -->
+  <!-- ******************************************** -->
+  <layer name="picture1"
+         keep="true"
+         url="%FIRSTXML%/graphics/picture1/_510325120454868.png" 
+         align="bottomright"
+         x="10"
+         y="10"
+         zorder="4"
+         handcursor="false"
+         enabled="false"
+         visible="false"
+         />
+
+  <events name="picture1events" 
+    onTourStart="showpicture1();"
+    hidetourcontrols="hidepicture1();" 
+    showtourcontrols="showpicture1();" 
+    keep="true" />
+
+  <action name="hidepicture1">set(layer[picture1].visible, false);</action>
+  <action name="showpicture1">set(layer[picture1].visible, true);</action>
+
+
+  <!-- ******************************************* -->
+  <!-- Button : bottom -->
+  <!-- ******************************************* -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/_45824.png" 
+         align="bottom"
+         x="-200"
+         y="80"
+         zorder="5"
+         visible="false"
+         onclick="buttonOnClick"
+         />
+  <action name="buttonOnClick">setViewArchitectural();
+
+
+  </action>
+
+  <events name="buttonevents" 
+    onTourStart="showbutton();"
+    hidetourcontrols="hidebutton();" 
+    showtourcontrols="showbutton();" 
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">set(layer[button].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : bottom -->
+  <!-- ******************************************* -->
+
+  <layer name="button2"
+         keep="true"
+         url="%FIRSTXML%/graphics/button2/_49548.png" 
+         align="bottom"
+         x="-120"
+         y="80"
+         zorder="6"
+         visible="false"
+         onclick="button2OnClick"
+         />
+  <action name="button2OnClick">setViewPannini();
+
+
+  </action>
+
+  <events name="button2events" 
+    onTourStart="showbutton2();"
+    hidetourcontrols="hidebutton2();" 
+    showtourcontrols="showbutton2();" 
+    keep="true" />
+  <action name="hidebutton2">set(layer[button2].visible, false);</action>
+  <action name="showbutton2">set(layer[button2].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : bottom -->
+  <!-- ******************************************* -->
+
+  <layer name="button4"
+         keep="true"
+         url="%FIRSTXML%/graphics/button4/_51204.png" 
+         align="bottom"
+         x="-40"
+         y="80"
+         zorder="7"
+         visible="false"
+         onclick="button4OnClick"
+         />
+  <action name="button4OnClick">loadPreviousScene();
+
+
+  </action>
+
+  <events name="button4events" 
+    onTourStart="showbutton4();"
+    hidetourcontrols="hidebutton4();" 
+    showtourcontrols="showbutton4();" 
+    keep="true" />
+  <action name="hidebutton4">set(layer[button4].visible, false);</action>
+  <action name="showbutton4">set(layer[button4].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : bottom -->
+  <!-- ******************************************* -->
+
+  <layer name="button5"
+         keep="true"
+         url="%FIRSTXML%/graphics/button5/_51020.png" 
+         align="bottom"
+         x="40"
+         y="80"
+         zorder="8"
+         visible="false"
+         onclick="button5OnClick"
+         />
+  <action name="button5OnClick">loadNextScene();
+
+
+  </action>
+
+  <events name="button5events" 
+    onTourStart="showbutton5();"
+    hidetourcontrols="hidebutton5();" 
+    showtourcontrols="showbutton5();" 
+    keep="true" />
+  <action name="hidebutton5">set(layer[button5].visible, false);</action>
+  <action name="showbutton5">set(layer[button5].visible, true);</action>
+
+
+
+  <!-- ************************************************** -->
+  <!-- Toggle Button : bottom -->
+  <!-- ************************************************** -->
+
+
+
+  <layer name="togglebutton2"
+         keep="true"
+         url="%FIRSTXML%/graphics/togglebutton2/_4773246020.png" 
+         align="bottom"
+         x="120"
+         y="80"
+         zorder="9"
+         state="true"
+         onclick="togglebutton2OnClick"
+         onout=""
+         visible="false"
+         />
+
+  <action name="togglebutton2OnClick">
+    if (state,
+      set(state, false);
+
+      set(url,%FIRSTXML%/graphics/togglebutton2/_4773246020.png);
+     ,
+      set(state, true);
+
+      set(url,%FIRSTXML%/graphics/togglebutton2/_4773246020.png);
+    );
+  </action>
+
+  <events name="togglebutton2events" 
+    onTourStart="showtogglebutton2();"
+    hidetourcontrols="hidetogglebutton2();" 
+    showtourcontrols="showtogglebutton2();" 
+    keep="true" />
+  <action name="hidetogglebutton2">set(layer[togglebutton2].visible, false);</action>
+  <action name="showtogglebutton2">set(layer[togglebutton2].visible, true);</action>
+
+<layer name="togglebutton2TooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="true"
+	backgroundcolor="0xfff45a"
+	backgroundalpha="0.8"
+	border="false"
+	css="color:#000000;font-family:나눔바른고딕;font-weight:bold;font-size:18px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	selectable="false"
+	zorder="0"
+	padding="2"
+	xoffset="0"
+	yoffset="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+
+
+  <!-- ************************************************** -->
+  <!-- Toggle Button : bottom -->
+  <!-- ************************************************** -->
+
+
+
+  <layer name="togglebutton1"
+         keep="true"
+         url="%FIRSTXML%/graphics/togglebutton1/_4954844144.png" 
+         align="bottom"
+         x="200"
+         y="80"
+         zorder="10"
+         state="true"
+         onclick="togglebutton1OnClick"
+         onout=""
+         visible="false"
+         />
+
+  <action name="togglebutton1OnClick">
+    if (state,
+      set(state, false);stopTourSounds();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton1/_49373.png);
+     ,
+      set(state, true);playTourSounds();
+
+
+      set(url,%FIRSTXML%/graphics/togglebutton1/_4954844144.png);
+    );
+  </action>
+
+  <events name="togglebutton1events" 
+    onTourStart="showtogglebutton1();"
+    hidetourcontrols="hidetogglebutton1();" 
+    showtourcontrols="showtogglebutton1();" 
+    keep="true" />
+  <action name="hidetogglebutton1">set(layer[togglebutton1].visible, false);</action>
+  <action name="showtogglebutton1">set(layer[togglebutton1].visible, true);</action>
+
+<layer name="togglebutton1TooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="true"
+	backgroundcolor="0xfff45a"
+	backgroundalpha="0.8"
+	border="false"
+	css="color:#000000;font-family:나눔바른고딕;font-size:14px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	selectable="false"
+	zorder="0"
+	padding="2"
+	xoffset="0"
+	yoffset="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+
+
+  <!-- ************************ -->
+  <!-- Title : current panorama -->
+  <!-- ************************ -->
+
+  <events name="title_currentpanorama_events" 
+    onTourStart="showtitle_currentpanorama();"
+    hidetourcontrols="hidetitle_currentpanorama();" 
+    showtourcontrols="showtitle_currentpanorama();" 
+    onnewpano="updatetitle_currentpanorama();" 
+    keep="true" />
+
+  <action name="hidetitle_currentpanorama">set(layer[title_currentpanorama].visible, false);</action>
+  <action name="showtitle_currentpanorama">set(layer[title_currentpanorama].visible, true );</action>
+
+  <action name="updatetitle_currentpanorama">
+    getmessage(layer[title_currentpanorama].html, get(scene[get(xml.scene)].titleid));
+    escape(layer[title_currentpanorama].html);
+  </action>
+  <layer name="title_currentpanorama" keep="true" zorder="11"
+         url="%FIRSTXML%/graphics/textfield.swf"
+         align="bottomleft" x="25" y="73" width="100%" autoheight="true"
+         background="false" capture="false" handcursor="false" selectable="false" enabled="false"
+         borderwidth="0"
+         alpha="1"
+         visible="false"
+         textshadow="1"
+         css="text-align:left;
+              color:#ffffff;
+              font-family:나눔바른고딕;
+              font-weight:bold;
+              font-size:16px;"/>
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button6"
+         keep="true"
+         url="%FIRSTXML%/graphics/button6/_129.png" 
+         align="topright"
+         x="10"
+         y="30"
+         zorder="12"
+         visible="false"
+         onclick="button6OnClick"
+         />
+  <action name="button6OnClick">openurl(http://s-class.ahpro.co.kr/vr2/129.html,_self);
+
+
+  </action>
+
+  <events name="button6events" 
+    onTourStart="showbutton6();"
+    hidetourcontrols="hidebutton6();" 
+    showtourcontrols="showbutton6();" 
+    keep="true" />
+  <action name="hidebutton6">set(layer[button6].visible, false);</action>
+  <action name="showbutton6">set(layer[button6].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button7"
+         keep="true"
+         url="%FIRSTXML%/graphics/button7/_109c.png" 
+         align="topright"
+         x="90"
+         y="30"
+         zorder="13"
+         visible="false"
+         onclick="button7OnClick"
+         />
+  <action name="button7OnClick">openurl(http://s-class.ahpro.co.kr/vr2/109C.html,_self);
+
+
+  </action>
+
+  <events name="button7events" 
+    onTourStart="showbutton7();"
+    hidetourcontrols="hidebutton7();" 
+    showtourcontrols="showbutton7();" 
+    keep="true" />
+  <action name="hidebutton7">set(layer[button7].visible, false);</action>
+  <action name="showbutton7">set(layer[button7].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button8"
+         keep="true"
+         url="%FIRSTXML%/graphics/button8/_109a.png" 
+         align="topright"
+         x="195"
+         y="30"
+         zorder="14"
+         visible="false"
+         onclick="button8OnClick"
+         />
+  <action name="button8OnClick">openurl(http://s-class.ahpro.co.kr/vr2/109A.html,_self);
+
+
+  </action>
+
+  <events name="button8events" 
+    onTourStart="showbutton8();"
+    hidetourcontrols="hidebutton8();" 
+    showtourcontrols="showbutton8();" 
+    keep="true" />
+  <action name="hidebutton8">set(layer[button8].visible, false);</action>
+  <action name="showbutton8">set(layer[button8].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button9"
+         keep="true"
+         url="%FIRSTXML%/graphics/button9/_98a.png" 
+         align="topright"
+         x="300"
+         y="30"
+         zorder="15"
+         visible="false"
+         onclick="button9OnClick"
+         />
+  <action name="button9OnClick">openurl(http://s-class.ahpro.co.kr/vr2/98A.html,_self);
+
+
+  </action>
+
+  <events name="button9events" 
+    onTourStart="showbutton9();"
+    hidetourcontrols="hidebutton9();" 
+    showtourcontrols="showbutton9();" 
+    keep="true" />
+  <action name="hidebutton9">set(layer[button9].visible, false);</action>
+  <action name="showbutton9">set(layer[button9].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button26"
+         keep="true"
+         url="%FIRSTXML%/graphics/button26/_84b.png" 
+         align="topright"
+         x="390"
+         y="30"
+         zorder="16"
+         visible="false"
+         onclick="button26OnClick"
+         />
+  <action name="button26OnClick">openurl(http://s-class.ahpro.co.kr/vr2/84B.html,_self);
+
+
+  </action>
+
+  <events name="button26events" 
+    onTourStart="showbutton26();"
+    hidetourcontrols="hidebutton26();" 
+    showtourcontrols="showbutton26();" 
+    keep="true" />
+  <action name="hidebutton26">set(layer[button26].visible, false);</action>
+  <action name="showbutton26">set(layer[button26].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button27"
+         keep="true"
+         url="%FIRSTXML%/graphics/button27/_84a.png" 
+         align="topright"
+         x="480"
+         y="30"
+         zorder="17"
+         visible="false"
+         onclick="button27OnClick"
+         />
+  <action name="button27OnClick">openurl(http://s-class.ahpro.co.kr/vr2/84.html,_self);
+
+
+  </action>
+
+  <events name="button27events" 
+    onTourStart="showbutton27();"
+    hidetourcontrols="hidebutton27();" 
+    showtourcontrols="showbutton27();" 
+    keep="true" />
+  <action name="hidebutton27">set(layer[button27].visible, false);</action>
+  <action name="showbutton27">set(layer[button27].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topleft -->
+  <!-- ******************************************* -->
+
+  <layer name="button25"
+         keep="true"
+         url="%FIRSTXML%/graphics/button25/m_5463744277.png" 
+         align="topleft"
+         x="25"
+         y="82"
+         zorder="18"
+         visible="false"
+         onclick="button25OnClick"
+         />
+  <action name="button25OnClick">
+          if (xml.scene != pano251,
+            mainloadscene(pano251);
+          );
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+    
+
+
+  </action>
+
+  <events name="button25events" 
+    onTourStart="showbutton25();"
+    hidetourcontrols="hidebutton25();" 
+    showtourcontrols="showbutton25();" 
+    keep="true" />
+  <action name="hidebutton25">set(layer[button25].visible, false);</action>
+  <action name="showbutton25">set(layer[button25].visible, true);</action>
+
+
+
+<!-- ************ -->
+<!-- Context Menu -->
+<!-- ************ -->
+  <contextmenu fullscreen="false" versioninfo="false" touch="true">
+    <item name="author" onclick="getmessage(urltoopen,project_author_url);openurl(get(urltoopen),_blank);" />
+    <item name="fullscreenentry" onclick="enterFullscreen();
+" separator="true"/>
+  </contextmenu>
+
+  <events name="contextmenuevents" keep="true" onenterfullscreen="updateContextMenu" onexitfullscreen="updateContextMenu" onxmlcomplete="updateContextMenu"/>
+  <action name="updateContextMenu">
+    getmessage(contextmenu.item[author].caption, project_author_name);
+    if (device.fullscreensupport,
+      if(tour_fullscreen,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenucloseFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, exitFullscreen();
+);
+       ,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenuopenFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, enterFullscreen();
+);
+      );
+     ,
+      set(contextmenu.item[fullscreenentry].visible, false);
+    );
+  </action>
+
+
+  <!-- ******************************************* -->
+  <!-- Button : topright -->
+  <!-- ******************************************* -->
+
+  <layer name="button28"
+         keep="true"
+         url="%FIRSTXML%/graphics/button28/_44277.png" 
+         align="topright"
+         x="580"
+         y="30"
+         zorder="20"
+         visible="false"
+         onclick="button28OnClick"
+         />
+  <action name="button28OnClick">openurl(http://s-class.ahpro.co.kr/vr2/sky.html,_self);
+
+
+  </action>
+
+  <events name="button28events" 
+    onTourStart="showbutton28();"
+    hidetourcontrols="hidebutton28();" 
+    showtourcontrols="showbutton28();" 
+    keep="true" />
+  <action name="hidebutton28">set(layer[button28].visible, false);</action>
+  <action name="showbutton28">set(layer[button28].visible, true);</action>
+
+
+
+  <!-- ******************************************* -->
+  <!-- Button : bottomleft -->
+  <!-- ******************************************* -->
+
+  <layer name="button29"
+         keep="true"
+         url="%FIRSTXML%/graphics/button29/_51452_505005453247196_03.png" 
+         align="bottomleft"
+         x="420"
+         y="15"
+         zorder="21"
+         visible="false"
+         onclick="button29OnClick"
+         />
+  <action name="button29OnClick">openurl(http://www.ahpro.co.kr,_blank);
+
+
+  </action>
+
+  <events name="button29events" 
+    onTourStart="showbutton29();"
+    hidetourcontrols="hidebutton29();" 
+    showtourcontrols="showbutton29();" 
+    keep="true" />
+  <action name="hidebutton29">set(layer[button29].visible, false);</action>
+  <action name="showbutton29">set(layer[button29].visible, true);</action>
+
+
+
+<action name="setViewPannini">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, view.hlookatmax, view.hlookatmin);
+		if (viewhfov == 360,
+			sub(viewvfov, view.vlookatmax, view.vlookatmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		stopSetViewTweens();
+		setViewPanniniComplete();
+	);
+</action>
+
+<action name="setViewPanniniComplete">
+	tween(view.architectural, 0.0, 0.25, easeoutquad,
+		tween(view.fovmax, get(panoview.fovmax), distance(179, 1.00));
+		set(backtonormalfirst,false);
+		if(view.pannini LT 1.0, set(backtonormalfirst,true); );
+		if(view.stereographic == false, set(backtonormalfirst,true); );
+		if(backtonormalfirst, hideTooltip();tween(view.fisheye, 0.0 ,distance(1.0, 0.25), easeoutquad, WAIT); );
+		tween(view.pannini, 1.0, distance(1.0, 0.75));
+		set(view.stereographic, true);
+		set(view.fisheyefovlink, 1.5);
+		tween(view.fisheye, 1.0, distance(1.0, 0.75));
+		tween(view.vlookat, get(panoview.v), 1.25);
+		if(panoview.fov LE view.fov, tween(view.fov, get(panoview.fov), distance(50, 0.45)); );
+	);
+</action>
+
+  <!-- Sounds Management -->
+  <plugin name="soundinterface"
+          preload="true"
+          url="%SWFPATH%/graphics/soundinterface.swf"
+          alturl="%FIRSTXML%/graphics/soundinterface.js"
+          rootpath="%$videos_sounds_path%/sounds"
+          backgroundsound=""
+          backgroundsoundloops="0"
+          bgsound="false"
+          bgsoundpaused="false"
+          volumeinitialized="false"
+          started="true"
+          keep="true"/>
+  <events name="soundmanagementevents"
+          onnewpano="if(plugin[soundinterface].started,playbackgroundsound(););"
+          onxmlcomplete="soundinterfaceonxmlcomplete();"
+          keep="true"/>
+  <action name="soundinterfaceonxmlcomplete">
+    ifnot(plugin[soundinterface].volumeinitialized,
+      div(plugin[soundinterface].volume, tour_soundsvolume, 100);
+      set(plugin[soundinterface].volumeinitialized,true);
+    );
+  </action>
+  <action name="playsound3Dwhenpossible">
+    set(really_play_sound, true);
+    if (tour_current_played_sound,
+      if (%1 == tour_current_played_sound,
+        delete(tour_current_played_sound);
+        set(tour_current_played_sound_state, 0);
+        delete(tour_current_played_sound_paused);
+        stopsound(%1);
+        set(really_play_sound, false);
+        if(%4,
+          delete(tour_current_played_sound_pausesound);
+          resumeTourSoundsActions(true,true,true,true,true);
+        );
+      );
+    );
+    if (really_play_sound,
+      if (tour_current_played_sound,
+        stopsound(get(tour_current_played_sound));
+
+        ifnot(%4,
+          if(tour_current_played_sound_pausesound,
+            delete(tour_current_played_sound_pausesound);
+            resumeTourSoundsActions(true,true,true,true,true);
+          );
+        );
+      );
+      if(%4,
+        set(tour_current_played_sound_pausesound, true);
+        pauseTourSoundsActions(true,false,true,true,true);
+      );
+      set(tour_current_played_sound, %1);
+      if(tour_current_played_video,
+        set(tour_current_played_sound_state, 2);
+      ,
+        set(tour_current_played_sound_state, 1);
+      );
+      set(tour_current_played_sound_paused, false);
+      if (%3,
+        if (device.flash,
+          div(volume, tour_soundsvolume, 100);
+          if(%9 != null,
+            playsound3D(%1,%2,%5,%6,%7,get(volume),%8,stopsound3Dwhenpossible(%1,%4));
+          ,
+            playsound3D(%1,%2,%5,%6,%7,get(volume),%8);
+          );
+        ,
+          if(%9 != null,
+            playsound(%1,%2,%8,stopsound3Dwhenpossible(%1,%4));
+          ,
+            playsound(%1,%2,%8);
+          );
+        );
+      ,
+        if(%6 != null,
+          playsound(%1,%2,%5,stopsound3Dwhenpossible(%1,%4));
+        ,
+          playsound(%1,%2,%5);
+        );
+      );
+
+      ifnot(tour_soundson,
+        set(tour_current_played_sound_paused, true);
+        pausesound(%1);
+      );
+    );
+  </action>
+  <action name="stopsound3Dwhenpossible">
+    if (%1 == tour_current_played_sound,
+      delete(tour_current_played_sound);
+      set(tour_current_played_sound_state, 0);
+      delete(tour_current_played_sound_paused);
+      stopsound(%1);
+      if(%2,
+        delete(tour_current_played_sound_pausesound);
+        resumeTourSoundsActions(true,true,true,true,true);
+      );
+    );
+  </action>
+  <action name="playbackgroundsound">
+  if(playsound,
+    if (xml.scene,
+      if (scene[get(xml.scene)].backgroundsound,
+        if (plugin[soundinterface].backgroundsound != scene[get(xml.scene)].backgroundsound,
+          copy(plugin[soundinterface].backgroundsound, scene[get(xml.scene)].backgroundsound);
+          copy(plugin[soundinterface].backgroundsoundloops, scene[get(xml.scene)].backgroundsoundloops);
+          if (tour_soundson,
+            if(plugin[soundinterface].backgroundsoundloops GT 0,
+              playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops), stopbackgroundsoundoncomplete());
+            ,
+              playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops));
+            );
+            set(plugin[soundinterface].bgsound, true);
+            set(plugin[soundinterface].bgsoundpaused, false);
+           ,
+            set(plugin[soundinterface].bgsound, false);
+          );
+        ,
+          if (tour_soundson,
+            if(plugin[soundinterface].bgsoundpaused == true,
+              resumesound(bgsoundname);
+              set(plugin[soundinterface].bgsoundpaused, false);
+            );
+          ,
+            set(plugin[soundinterface].bgsound, false);
+          );
+        );
+      );
+    );
+  ,
+    delayedcall(0.2, playbackgroundsound());
+  );
+  </action>
+  <action name="stopbackgroundsoundoncomplete">
+    if (plugin[soundinterface].backgroundsound,
+    if (plugin[soundinterface].backgroundsoundloops GT 0,
+      set(plugin[soundinterface].backgroundsound, "");
+      set(plugin[soundinterface].backgroundsoundloops, 0);
+      set(plugin[soundinterface].bgsound, false);
+      set(plugin[soundinterface].bgsoundpaused, false);
+    );
+    );
+  </action>
+  <action name="resetbackgroundsoundifneeded">
+    if (xml.scene,
+      if (scene[get(xml.scene)].backgroundsound != scene[%1].backgroundsound,
+        if (plugin[soundinterface].backgroundsound,
+          stopsound(bgsoundname);
+        );
+        set(plugin[soundinterface].backgroundsound, "");
+        set(plugin[soundinterface].backgroundsoundloops, 0);
+        set(plugin[soundinterface].bgsound, false);
+        set(plugin[soundinterface].bgsoundpaused, false);
+      );
+    );
+  </action>
+  <action name="pausebackgroundsound">
+    if(plugin[soundinterface].backgroundsound,
+      if (plugin[soundinterface].bgsound,
+        if(plugin[soundinterface].bgsoundpaused == false,
+          pausesound(bgsoundname);
+          set(plugin[soundinterface].bgsoundpaused, true);
+        );
+      );
+    );
+  </action>
+  <action name="resumebackgroundsound">
+    set(killBgSoundOnResume, true);
+    if(layer[displayedStandardVideo],
+    if(layer[displayedStandardVideo].pausebgsound AND tour_current_played_video,
+      set(killBgSoundOnResume, false);
+    ););
+    if(layer[webvideodisplay_player],
+    if(layer[webvideodisplay_player].pausebgsound AND tour_current_played_web_video,
+      set(killBgSoundOnResume, false);
+    ););
+    if(tour_current_played_sound_pausesound AND tour_current_played_sound,
+      set(killBgSoundOnResume, false);
+    );
+    ifnot(plugin[soundinterface].backgroundsound AND scene[get(xml.scene)].backgroundsound,
+      set(killBgSoundOnResume, false);
+    );
+    if(killBgSoundOnResume,
+      if (plugin[soundinterface].backgroundsound,
+        if (tour_soundson,
+          if (plugin[soundinterface].bgsound,
+            if(plugin[soundinterface].bgsoundpaused,
+              resumesound(bgsoundname);
+              set(plugin[soundinterface].bgsoundpaused, false);
+            );
+          ,
+            if(plugin[soundinterface].backgroundsoundloops GT 0,
+              playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops), stopbackgroundsoundoncomplete());
+            ,
+              playsound(bgsoundname, get(plugin[soundinterface].backgroundsound), get(plugin[soundinterface].backgroundsoundloops));
+            );
+            set(plugin[soundinterface].bgsound, true);
+            set(plugin[soundinterface].bgsoundpaused, false);
+          );
+        );
+      );
+    ,
+      playbackgroundsound();
+    );
+  </action>
+  <action name="preloadSounds">
+    preloadsound("c_major_prelude.mp3");
+  </action>
+  <action name="play3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, playpanolocalsounds();););
+  </action>
+  <action name="stop3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, stoppanolocalsounds();););
+  </action>
+  <action name="resume3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, 
+      set(kill3dSoundOnResume, true);
+      if(layer[displayedStandardVideo],
+      if(layer[displayedStandardVideo].pausebgsound,
+      if(tour_current_played_video,
+        set(kill3dSoundOnResume, false);
+      );););
+      if(layer[webvideodisplay_player],
+      if(layer[webvideodisplay_player].pausebgsound,
+      if(tour_current_played_web_video,
+        set(kill3dSoundOnResume, false);
+      );););
+      if(tour_current_played_sound_pausesound,
+      if(tour_current_played_sound,
+        set(kill3dSoundOnResume, false);
+      ););
+      if(kill3dSoundOnResume,
+        resumepanolocalsounds();
+      );
+    ););
+  </action>
+  <action name="pause3DLocalSounds">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, pausepanolocalsounds();););
+  </action>
+  <action name="set3DLocalSoundsVolume">
+    if (xml.scene, if (scene[get(xml.scene)].haslocalsounds, setpanolocalsoundsvolume();););
+  </action>
+  <action name="playTourSounds">
+    set(tour_soundson, true);events.dispatch(playtoursoundsevent);
+    resumeTourSoundsActions(true,true,true,true,true);
+  </action>
+  <action name="stopTourSounds">
+    set(tour_soundson, false);events.dispatch(stoptoursoundsevent);
+    pauseTourSoundsActions(true,true,true,true,true);
+  </action>
+  <action name="setTourSoundsVolume">
+    set(tour_soundsvolume, %1);
+    div(volume, tour_soundsvolume, 100);
+    set(plugin[soundinterface].volume, get(volume));
+    set3DLocalSoundsVolume();
+  </action>
+  <action name="playTourSoundsActions">
+    if(%1,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+          play3DLocalSounds();
+        );
+      );
+    );
+    if(%2,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+          resumebackgroundsound();
+        );
+      );
+    );
+  </action>
+  <action name="stopTourSoundsActions">
+    if(%1,
+      stop3DLocalSounds();
+    );
+    if(%2,
+      stopSoundActionsSounds();
+    );
+    if(%3,
+      stopVideoActionsSounds();
+    );
+    if(%4,
+      pausebackgroundsound();
+    );
+  </action>
+  <action name="resumeTourSoundsActions">
+    if(%1,
+      if(plugin[soundinterface],
+        if(plugin[soundinterface].started,
+          resume3DLocalSounds();
+        );
+      );
+    );
+    if(%2,
+      resumeSoundActionsSounds();
+    );
+    if(%3,
+      resumeVideoActionsSounds();
+    );
+    if(%4,
+      if(%5,
+        if(plugin[soundinterface],
+          if(plugin[soundinterface].started,
+            resumebackgroundsound();
+          );
+        );
+      ,
+        pausebackgroundsound();
+      );
+    );
+  </action>
+  <action name="pauseTourSoundsActions">
+    if(%1,
+      pause3DLocalSounds();
+    );
+    if(%2,
+      pauseSoundActionsSounds();
+    );
+    if(%3,
+      pauseVideoActionsSounds();
+    );
+    if(%4,
+      if(%5,
+        pausebackgroundsound();
+      ,
+        if(plugin[soundinterface],
+          if(plugin[soundinterface].started,
+            resumebackgroundsound();
+          );
+        );
+      );
+    );
+  </action>
+  <action name="stopSoundActionsSounds">
+    if (tour_current_played_sound,
+      delete(tour_current_played_sound_paused);
+      stopsound(get(tour_current_played_sound));
+      delete(tour_current_played_sound);
+      set(tour_current_played_sound_state, 0);
+    );
+  </action>
+  <action name="stopVideoActionsSounds">
+    if(tour_current_played_video,
+      if(layer[displayedStandardVideo],
+        layer[displayedStandardVideo].stop();
+        removelayer(displayedStandardVideo);
+        if(layer[displayedStandardVideoOverlayButton], removelayer(displayedStandardVideoOverlayButton); );
+        if(layer[displayedStandardVideoOverlay], removelayer(displayedStandardVideoOverlay); );
+        delete(tour_current_played_video);
+        set(tour_current_played_video_state, 0);
+      );
+    );
+    if(tour_current_played_web_video,
+      displayWebVideoObjectClose();
+    );
+  </action>
+  <action name="resumeSoundActionsSounds">
+    if (tour_current_played_sound,
+      set(resumeSoundActionsVerification, true);
+      if(tour_current_played_video,
+        if(tour_current_played_sound_state LT tour_current_played_video_state,
+          set(resumeSoundActionsVerification, false);
+        );
+      );
+      if(resumeSoundActionsVerification,
+        if (tour_soundson,
+          if(tour_current_played_sound_paused,
+            set(tour_current_played_sound_paused, false);
+            resumesound(get(tour_current_played_sound));
+          );
+        );
+      );
+    );
+  </action>
+  <action name="resumeVideoActionsSounds">
+    if(tour_current_played_video,
+      set(resumeVideoActionsVerification, true);
+      if(tour_current_played_sound,
+        if(tour_current_played_video_state LT tour_current_played_sound_state,
+          set(resumeVideoActionsVerification, false);
+        );
+      );
+      if(resumeVideoActionsVerification,
+        if (tour_soundson,
+          div(volume, tour_soundsvolume, 100);
+          if(device.flash,
+            set(layer[displayedStandardVideo].volume, get(volume));
+          ,
+            ifnot(device.ios,
+              js(kpanotour.Sounds.startVideosSounds(get(volume)));
+            );
+          );
+        ,
+          if(device.flash,
+            set(layer[displayedStandardVideo].volume, 0);
+          ,
+            ifnot(device.ios,
+              js(kpanotour.Sounds.stopVideosSounds());
+            );
+          );
+        );
+      );
+    );
+  </action>
+  <action name="pauseSoundActionsSounds">
+    if (tour_current_played_sound,
+      ifnot(tour_current_played_sound_paused,
+        set(tour_current_played_sound_paused, true);
+        pausesound(get(tour_current_played_sound));
+      );
+    );
+  </action>
+  <action name="pauseVideoActionsSounds">
+    if(tour_current_played_video,
+      if(device.flash,
+        set(layer[displayedStandardVideo].volume, 0);
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.stopVideosSounds());
+        );
+      );
+    );
+  </action>
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+<action name="setViewArchitectural">
+	stopSetViewTweens();
+	setViewArchitecturalComplete();
+</action>
+
+<action name="setViewArchitecturalComplete">
+	tween(view.fovmax, get(panoview.fovmax), distance(179, 1.00), easeoutquad);
+	tween(view.architectural, 1.0, distance(1.0, 0.45), easeoutquad, 
+		tween(view.pannini, 0.0, distance(1.0, 0.45));
+		tween(view.fisheye, 0.0, distance(1.0, 0.45), easeoutquad, 
+			set(view.fisheyefovlink, 0.5);
+			set(view.stereographic,false);
+			tween(view.vlookat, get(panoview.v), 1.25);
+			if(panoview.fov LE view.fov, tween(view.fov, get(panoview.fov), distance(50, 0.45)); );
+		);
+	);
+</action>
+
+</krpano>

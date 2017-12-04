@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[광교 중흥 S-class 109A]]></data>
+  <data name="en_project_author_name"><![CDATA[(주)아프로]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.ahpro.co.kr]]></data>
+
+
+
+  <data name="en_pano304_title"><![CDATA[거실]]></data>
+
+
+  <data name="en_pano310_title"><![CDATA[주방]]></data>
+
+
+  <data name="en_pano305_title"><![CDATA[안방]]></data>
+
+
+  <data name="en_pano307_title"><![CDATA[서재]]></data>
+
+
+  <data name="en_pano303_title"><![CDATA[침실1]]></data>
+
+
+  <data name="en_pano302_title"><![CDATA[침실2]]></data>
+
+
+  <data name="en_pano309_title"><![CDATA[공용욕실]]></data>
+
+
+  <data name="en_pano308_title"><![CDATA[부부욕실]]></data>
+
+
+  <data name="en_pano421_title"><![CDATA[드레스룸]]></data>
+
+
+  <data name="en_pano425_title"><![CDATA[수납공간]]></data>
+
+
+  <data name="en_pano301_title"><![CDATA[현관]]></data>
+
+
+
+
+	<data name="en_project_floor_title"><![CDATA[109㎡ A Type]]></data>
+	<data name="en_spotmap282_tooltip"><![CDATA[현관]]></data>
+	<data name="en_spotmap283_tooltip"><![CDATA[공용욕실]]></data>
+	<data name="en_spotmap284_tooltip"><![CDATA[침실1]]></data>
+	<data name="en_spotmap285_tooltip"><![CDATA[침실2]]></data>
+	<data name="en_spotmap286_tooltip"><![CDATA[거실]]></data>
+	<data name="en_spotmap287_tooltip"><![CDATA[주방]]></data>
+	<data name="en_spotmap289_tooltip"><![CDATA[부부욕실]]></data>
+	<data name="en_spotmap346_tooltip"><![CDATA[서재]]></data>
+	<data name="en_spotmap347_tooltip"><![CDATA[안방]]></data>
+	<data name="en_spotmap428_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap429_tooltip"><![CDATA[]]></data>
+
+
+  <data name="en_logowebsiteurl"><![CDATA[http://gk.s-class.co.kr/]]></data>
+  <data name="en_logotooltipText"><![CDATA[광교 중흥S-class 홈페이지 바로가기]]></data>
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_button2tooltip"><![CDATA[]]></data>
+  <data name="en_button4tooltip"><![CDATA[]]></data>
+  <data name="en_button5tooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton2firsttooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton2secondtooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton1firsttooltip"><![CDATA[]]></data>
+  <data name="en_togglebutton1secondtooltip"><![CDATA[]]></data>
+  <data name="en_button6tooltip"><![CDATA[]]></data>
+  <data name="en_button6openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/129.html]]></data>
+  <data name="en_button7tooltip"><![CDATA[]]></data>
+  <data name="en_button7openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/109C.html]]></data>
+  <data name="en_button8tooltip"><![CDATA[]]></data>
+  <data name="en_button8openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/109A.html]]></data>
+  <data name="en_button9tooltip"><![CDATA[]]></data>
+  <data name="en_button9openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/98A.html]]></data>
+  <data name="en_button26tooltip"><![CDATA[]]></data>
+  <data name="en_button26openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/84B.html]]></data>
+  <data name="en_button27tooltip"><![CDATA[]]></data>
+  <data name="en_button27openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/84A.html]]></data>
+  <data name="en_button25tooltip"><![CDATA[]]></data>
+  <data name="en_button16tooltip"><![CDATA[]]></data>
+  <data name="en_button17tooltip"><![CDATA[]]></data>
+  <data name="en_button18tooltip"><![CDATA[]]></data>
+  <data name="en_button19tooltip"><![CDATA[]]></data>
+  <data name="en_button20tooltip"><![CDATA[]]></data>
+  <data name="en_button21tooltip"><![CDATA[]]></data>
+  <data name="en_button22tooltip"><![CDATA[]]></data>
+  <data name="en_button24tooltip"><![CDATA[]]></data>
+  <data name="en_contextmenuopenFsLabel"><![CDATA[Enter Fullscreen]]></data>
+  <data name="en_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
+  <data name="en_button28tooltip"><![CDATA[]]></data>
+  <data name="en_button28openurlwebsiteurl"><![CDATA[http://s-class.ahpro.co.kr/vr2/sky.html]]></data>
+  <data name="en_button29tooltip"><![CDATA[]]></data>
+  <data name="en_button29openurlwebsiteurl"><![CDATA[http://www.ahpro.co.kr]]></data>
+  <data name="en_button30tooltip"><![CDATA[]]></data>
+  <data name="en_button31tooltip"><![CDATA[]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
